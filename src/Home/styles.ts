@@ -43,7 +43,9 @@ export const LabelCont = styled.Text`
 export const BtnAction = styled.TouchableOpacity<{colorAction: string}>`
   background: ${props => props.colorAction};
   padding: 15px;
-  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
   align-items: center;
   justify-content: center;
 `;
